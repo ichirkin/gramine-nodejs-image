@@ -11,3 +11,5 @@ RUN apt-get update \
   && apt-get install -y gramine \
   && apt-get clean
 
+
+ENTRYPOINT ["/bin/sh", "-c"]
